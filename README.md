@@ -3,9 +3,6 @@ NATIONAL COLLEGE OF IRELAND - H. DIPLOMA IN CLOUD COMPUTING
 Web Services and API Development CA3 Project
 Lecturer Julie Power
 
-# Online-Banking-system
-Online Banking System in PHP & MySQL.
-
 Authors: 
         
          Jessica Garcia  [jescicarolinagarciamartinuzzi@gmail.com]
