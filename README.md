@@ -45,25 +45,15 @@ Online Banking features:
 
 >Staff and Admin Login pages are hidden from customer for security purpose.
 
-Security:
 
->Each and every input is passed through mysql_real_escape_string() to remove special characters from the string so that user can’t submit arbitrary input. It protects from attacks like Sql Injection and Cross Site Scripting(XSS).
-
->Passwords are encrypted with SHA- 1  hashing algorithm and then stored in database.
-
->Passwords are stored as encrypted hashes with an additional random salt for added security.
-
-Note: If we talk about security,above mentioned points would provide no security at all but it will work for beginners. Being into web app pentesting,I very well know this project will not be considered secure. It needs atleast a more effective filtering mechanism, better hashing algorithm, a better salting procedure for storing passwords and some other things too.
 
 Database:
 
->The database contains customerS, securityQuest, Transactions,TypeAccount, Accounts,TransCustom.
+>The database contains customers, securityQuest, Transactions,TypeAccount, Accounts,TransCustom.
 
 >Each customer has its own virtual passbook linked with its account number.
 
->Staff, customer and, admin have their details and password in their respective tables with all the details.
 
->A separate table for beneficiary is included in the database.
 
 
 
