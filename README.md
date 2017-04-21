@@ -5,7 +5,7 @@ Lecturer Julie Power
 
 Authors: 
         
-         Jessica Garcia  [jescicarolinagarciamartinuzzi@gmail.com]
+         Jessica Garcia  [jessicarolinagarciamartinuzzi@gmail.com]
         
          
           Fernanda Carvalho [fernandafcr@gmail.com]
