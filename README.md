@@ -15,7 +15,6 @@ Authors:
         
          
 
-Screenshots and description: http://hackwhiz.com/2015/02/online-banking-system-php-mysql/ 
 
 The project’s Main goal is based on:
 
@@ -27,23 +26,22 @@ The project’s Main goal is based on:
 
 Online Banking features:
 
->Registration for online banking by Admin.
+>Registration for online banking.
 
 >Adding Beneficiary account by customer.
 
 >Transferring amount to the beneficiary added by customer.
 
->Staff must approve for beneficiary activation before it can be used for transferring funds.
+>Create a new account
 
->Customer can check last transactions made with their account.
+>Customer can:
+>Check Balance
+>Change Password.
+>Make a lodge
+>Make a withdraw
+Make a Transfer
+>
 
->Customer can check their account statement within a date range.
-
->Admin can add/edit/delete customer as well as staff.
-
->All three of them(customer, staff & admin) can change their password.
-
->Staff and Admin Login pages are hidden from customer for security purpose.
 
 
 
@@ -51,38 +49,26 @@ Database:
 
 >The database contains customers, securityQuest, Transactions,TypeAccount, Accounts,TransCustom.
 
->Each customer has its own virtual passbook linked with its account number.
 
 
 
-
-
-
-This project is divided into three hierarchical parts: 
+This project is divide into different parts: 
 
 >The index page for the customer login.
+>The second page 
 
->A hidden staff login page.
 
->A hidden admin login page.
 
 Usage:
 
-1.Install XAMPP or something similar.
+1.Create a db named as 'Bank_db' and import the bank_db.sql 
 
-2.Copy all the files to c:/xampp/htdocs/banking/
 
-3.Create a db named as 'bnak_db' and import the bank_db.sql from phpMyAdmin.
-
-4.change the password in _inc/dbconn.php file accordingly.
 
 5.visit localhost/banking (customer index page)
 
-6.visit localhost/banking/adminlogin.php (admin login)
+6.visit localhost/banking/login (customer login)
 
-7.visit localhost/banking/staff_login.php (staff login)
-
-Note: The customer passwords are hashed and stored in the database. You will not be able to see it.
-The password is 'rash' for almost all the customers,just in case if you want to login with the pre added customer. 
+7.visit localhost/banking/services (customer services)
 
 
