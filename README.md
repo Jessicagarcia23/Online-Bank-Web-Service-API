@@ -65,10 +65,10 @@ Usage:
 
 
 
-5.visit localhost/banking (customer index page)
+2.visit localhost/banking (customer index page)
 
-6.visit localhost/banking/login (customer login)
+3.visit localhost/banking/login (customer login)
 
-7.visit localhost/banking/services (customer services)
+4.visit localhost/banking/services (customer services)
 
 
