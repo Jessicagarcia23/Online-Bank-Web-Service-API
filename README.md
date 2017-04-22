@@ -36,8 +36,8 @@ Online Banking features:
 
 >Customer can:
 >Check Balance
->Change Password.
->Make a lodge
+
+>Make a lodgement
 >Make a withdraw
 Make a Transfer
 >
@@ -47,7 +47,7 @@ Make a Transfer
 
 Database:
 
->The database contains customers, securityQuest, Transactions,TypeAccount, Accounts,TransCustom.
+>The database contains customer,Account, Transaction
 
 
 
