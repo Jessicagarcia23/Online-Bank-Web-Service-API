@@ -73,14 +73,15 @@ public class CustomerFacadeREST extends AbstractFacade<Customer> {
     @GET
     @Path("login")
     @Produces({MediaType.APPLICATION_JSON, MediaType.APPLICATION_XML})
-    public Customer getCustomer(@QueryParam("email") String email, @QueryParam("password") String password) {
-        Customer c = null;
-        for(Customer cu: findAll()){
-            if(cu.getEmail().equals(email)&&cu.getPassword().equals(password)){
-                c = cu;
+    public Customer login(@QueryParam("email") String email, @QueryParam("password") String password) {
+        Customer customer = null;
+        for(Customer c: findAll()){
+            if(c.getEmail().equals(email)&&c.getPassword().equals(password)){
+                customer = c;
+                break;
             }
         }
-        return c;
+        return customer;
     }
 
     @GET

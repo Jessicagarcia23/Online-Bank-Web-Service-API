@@ -73,6 +73,10 @@ public class Customer implements Serializable {
         this.email = email;
     }
 
+    public Customer(int aInt, String string, String string0, String string1, String string2) {
+        throw new UnsupportedOperationException("Not supported yet."); //To change body of generated methods, choose Tools | Templates.
+    }
+
     public Integer getCustomerNo() {
         return customerNo;
     }
