@@ -5,13 +5,10 @@ Lecturer Julie Power
 
 Authors: 
         
-         Jessica Garcia  [jessicarolinagarciamartinuzzi@gmail.com]
+         Jessica Garcia  [jessicarolinagarciamartinuzzi@gmail.com
         
          
-          Fernanda Carvalho [fernandafcr@gmail.com]
-        
-         
-          Franciele  [franciele.karine@hotmail.com]
+          Franciele Alves  [franciele.karine@hotmail.com]
         
          
 
@@ -28,47 +25,37 @@ Online Banking features:
 
 >Registration for online banking.
 
->Adding Beneficiary account by customer.
+>Navigate through banking menu
 
->Transferring amount to the beneficiary added by customer.
+>Transfer on line is available.
 
->Create a new account
+>Create a new account (Saving/ current)
 
->Customer can:
+>Make a Lodgment / Withdraw
+
 >Check Balance
 
->Make a lodgement
->Make a withdraw
-Make a Transfer
->
+>Check Details Account
 
 
 
 
 Database:
 
->The database contains customer,Account, Transaction
+>The database contains customer,Account and Transaction
 
 
 
 
 This project is divide into different parts: 
 
->The index page for the customer login.
->The second page 
 
 
 
-Usage:
+1.visit http://localhost:8080/BankingSystemOfficial/api/customer/login (customer index page)
 
-1.Create a db named as 'Bank_db' and import the bank_db.sql 
+2.visit http://localhost:8080/BankingSystemOfficial/api/account (account index page)
 
 
-
-2.visit localhost/banking (customer index page)
-
-3.visit localhost/banking/login (customer login)
-
-4.visit localhost/banking/services (customer services)
 
 
