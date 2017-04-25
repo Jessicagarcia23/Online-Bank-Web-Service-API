@@ -9,6 +9,8 @@ Authors:
         
          
           Franciele Alves  [franciele.karine@hotmail.com]
+          
+          Fernanda Carvalho [ fernanda@gmail.com]
         
          
 
